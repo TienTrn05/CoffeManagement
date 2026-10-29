@@ -1,0 +1,33 @@
+# Visual Studio and local user settings
+.vs/
+**/.vs/
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build output and restored NuGet packages
+[Bb]in/
+[Oo]bj/
+/packages/
+TestResults/
+*.log
+*.nupkg
+*.snupkg
+
+# Local databases, backups, and secrets
+*.mdf
+*.ldf
+*.bak
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12
+
+# OS metadata
+Thumbs.db
+Desktop.ini
+.DS_Store
